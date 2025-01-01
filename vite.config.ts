@@ -14,4 +14,13 @@ export default defineConfig({
       ],
     }),
   ],
+  css: {
+    preprocessorOptions: {
+      less: {
+        javascriptEnabled: true,
+        additionalData: 
+        '@import (reference) "./src/assets/style/basic.less";',
+      },
+    },
+  },
 })

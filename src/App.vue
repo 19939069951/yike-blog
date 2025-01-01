@@ -1,11 +1,11 @@
 <script setup lang="ts">
+import HeaderBar from './views/layout/HeaderBar.vue'
 </script>
 
 <template>
-  <div>
-    <a-button type="primary">Primary Button</a-button>
-  </div>
+  <HeaderBar />
+  <router-view />
 </template>
 
-<style scoped>
+<style scoped lang="less">
 </style>
